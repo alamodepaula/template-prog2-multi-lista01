@@ -6,8 +6,12 @@
 
 // 7.Um número de Fibonacci é dado por f(n) = f(n-1) + f(n-2), onde f(0) = 0 e f(1) =1.
 // Faça um programa em C que dadon, calcule o número de Fibonacci den.
-int
-exercicio7(int n)
+int exercicio7(int n)
 {
-  return 10;
+    if (n == 1 || n == 2)
+        return 1;
+    else
+        if (n == 0) 
+        return 0;
+    return exercicio7(n - 1) + exercicio7(n - 2);
 }
