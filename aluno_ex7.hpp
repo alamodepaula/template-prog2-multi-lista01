@@ -9,7 +9,7 @@
 int
 exercicio7(int n)
 {
-    int numFib, n;
+    int numFib;
     if (n == 1 || n == 2)
         return 1;
     else
