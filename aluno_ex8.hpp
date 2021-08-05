@@ -8,5 +8,12 @@
 int
 exercicio8(int n)
 {
-  return 0;
+  int resto = 0;
+    while (n != 0){
+        resto = resto * 10;
+        rest = resto + n % 10;
+        n = n / 10;
+    }
+    return 0;
 }
+
